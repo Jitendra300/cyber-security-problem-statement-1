@@ -1,0 +1,7 @@
+work.txt
+resources.txt
+config.env
+idea.txt
+__pycache__/*
+tools_used.txt
+logs/*
