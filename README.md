@@ -59,6 +59,9 @@ Running helloworld.py for analyzig gives.<br>
 ![Testing Virus](/images/testingEICAR.png)
 <br><br>
 
+6.) Any other thing about project you wanna add?
+-> Well nothing much. For each file being analyzed we keep log files of the form .json and .txt in logs/ directory for future reference and also for debugging. We also recommened user to make one virtualenv before downloading stuff from requirements.txt file using pip. 
+
 # Future Projects:
 Maybe use Machine Learning and Neural Network Stuff to decide whether a given program might be malicious or not.
 
