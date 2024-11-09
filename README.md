@@ -25,6 +25,11 @@ Where <network_Status> is either wifi_device(in my case wlp2s0) or __no__, <Ram_
 ##### For having no internet access inside the sandbox we can pass:
     sh run.sh no 512000000 chumma.sh
 
+# Output
+Running helloworld.py for analyzig gives.<br>
+![Output](/images/output.png)
+<br><br>
+
 # More Info!
 ### Tools Used:
 * Firejail
@@ -48,6 +53,11 @@ Where <network_Status> is either wifi_device(in my case wlp2s0) or __no__, <Ram_
 
 4.) Why is the interface so poor?
 -> Well interface is very beautiful and simple. All it takes is few commands to run. And moreover this is how most of the hacking tools work to this day. They are CLI apps. Working with CLI is much easier. I know it might frighten the young lads but its definetly worthit. Using CLI makes more sense when dealing with low level stuff.
+
+5.) How good is ClamAV?
+-> Well we can't run real virus for some obvious reasons thus we use EICAR files which are known to be tested for malicious programs but aren't harmful. They are marked as harmful by the Anti-Virus. Let's see how good ClamAV is for 4 EICAR files...<br>
+![Testing Virus](/images/testingEICAR.png)
+<br><br>
 
 # Future Projects:
 Maybe use Machine Learning and Neural Network Stuff to decide whether a given program might be malicious or not.
